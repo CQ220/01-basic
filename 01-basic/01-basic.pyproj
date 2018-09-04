@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c925e890-c151-4482-af99-1c7e309384bf</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>_01_basic.py</StartupFile>
+    <StartupFile>stock-data-example.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="stock-data-example.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="_01_basic.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
